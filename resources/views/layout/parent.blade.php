@@ -17,6 +17,12 @@
                 background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
             }
         </style>
+
+        {{--MapBox--}}
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+        {{--/MapBox--}}
+
     </head>
     <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
     <!--Nav-->
@@ -66,7 +72,7 @@
         </div>
         <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
     </nav>
-    
+
     <main>
         @yield('content')
     </main>
