@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SuperController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+Route::get('/', [SuperController::class, 'welcome'])->name('super.welcome');
+
+Route::get('/mapa', [SuperController::class, 'mapa'])->name('super.mapa');
+
+Route::get('/lista', [SuperController::class, 'lista'])->name('super.lista');
