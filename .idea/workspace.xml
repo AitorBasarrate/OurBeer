@@ -27,17 +27,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bff1f77-b6cc-45cc-92ec-34a32c79b1c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/cerveza.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layout/parent.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/parent.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/mapa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mapa.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -193,6 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614153149435</updated>
       <workItem from="1614153150747" duration="4559000" />
+      <workItem from="1614326202422" duration="2379000" />
     </task>
     <servers />
   </component>
@@ -221,5 +222,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

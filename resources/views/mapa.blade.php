@@ -2,7 +2,7 @@
 
 @section('tittle', 'OurBeer')
 
-@section('contents')
+@section('content')
 
 
 
@@ -49,10 +49,10 @@
 </div>
 
 {{-- Aquí va el contenido del centro --}}
-<section class="bg-white text-gray-800">
+<section class="w-full h-full bg-white text-gray-800">
 {{--    --}}
 
-    <div id='map' style='width: 400px; height: 300px;'></div>
+    <div id='map' class='rounded ml-96 h-full w-full' style='width: 700px; height: 600px;'>Mapa</div>
     <script>
         mapboxgl.accessToken = 'pk.eyJ1IjoiYmFzYXRvcjAwIiwiYSI6ImNrbGtueXNmaDBnb3Qyd3AyaDVndHBhbTYifQ.8QQ15tpipTT07pjLjkVaww';
         var map = new mapboxgl.Map({
