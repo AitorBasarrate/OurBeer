@@ -48,15 +48,17 @@
 {{-- Aquí va el contenido del centro --}}
 <section class="bg-white text-gray-800">
 
-    <div id='map' class="self-center w-full h-96">Mapa
-    </div>
-    <script>
+    <div id='map' class="ml-32 mr-32 h-96">
+        <h1>MAPA</h1>
+        <script  class="self-center">
         mapboxgl.accessToken = 'pk.eyJ1IjoiYmFzYXRvcjAwIiwiYSI6ImNrbGtuczJ1ZTAxMWEyd3FodXI4bzRjY2QifQ.BpiYbFUj6ZRv0jEx8Mu2Hw';
         var map = new mapboxgl.Map({
             container: 'map',
             style: 'mapbox://styles/mapbox/streets-v11'
         });
     </script>
+    </div>
+    
 
 </section>
 
