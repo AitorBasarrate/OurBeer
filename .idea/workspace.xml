@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bff1f77-b6cc-45cc-92ec-34a32c79b1c8" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_02_2021_19_30__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25_02_2021_19_30__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/OurBeer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OurBeer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout/parent.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout/parent.blade.php" afterDir="false" />
+>>>>>>> 494f0acaf4d43f7bfbabcc54ef2ddd8792f14f9b
+      <change beforePath="$PROJECT_DIR$/resources/views/mapa.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mapa.blade.php" afterDir="false" />
+>>>>>>> 49dc1cda06d6d06a6175872805ae7cd7e69a948c
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,10 +181,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614153149435</updated>
+<<<<<<< HEAD
+      <workItem from="1614153150747" duration="4559000" />
+      <workItem from="1614326202422" duration="2379000" />
+=======
       <workItem from="1614153150747" duration="4399000" />
+<<<<<<< HEAD
       <workItem from="1614346002564" duration="27000" />
       <workItem from="1614355026495" duration="181000" />
       <workItem from="1614417170133" duration="37000" />
+=======
+>>>>>>> 494f0acaf4d43f7bfbabcc54ef2ddd8792f14f9b
+>>>>>>> 49dc1cda06d6d06a6175872805ae7cd7e69a948c
     </task>
     <servers />
   </component>

@@ -33,7 +33,7 @@ class DatabaseSeeder extends Seeder
             DB::table('BarCerveza')->insert([
                 'precio' => $faker->numberBetween($min=2, $max=7)
             ]);
-            $cont++
-
+            $cont++;
+        }
     }
 }
