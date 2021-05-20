@@ -3,11 +3,6 @@
 @section('tittle', 'OurBeer')
 
 @section('content')
-<<<<<<< HEAD
-
-
-=======
->>>>>>> 494f0acaf4d43f7bfbabcc54ef2ddd8792f14f9b
 
 <!--Hero-->
 <div class="pt-24">
