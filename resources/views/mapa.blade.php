@@ -7,21 +7,6 @@
 <!--Hero-->
 <div class="pt-24">
     <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-        <!--Left Col-->
-        <div class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-            <h1 class="my-4 text-5xl font-bold leading-tight">
-            MAPA
-            </h1>
-            {{-- <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-            Subscribe
-            </button> --}}
-        </div>
-        <!--Right Col-->
-        <div class="w-4 md:w-3/5 py-6 text-center">
-            <svg class="w-1/4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-            </svg>
-        </div>
     </div>
 </div>
 
@@ -50,13 +35,24 @@
 
     <div id='map' class="ml-32 mr-32 h-96">
         <h1>MAPA</h1>
-        <script  class="self-center">
-        mapboxgl.accessToken = 'pk.eyJ1IjoiYmFzYXRvcjAwIiwiYSI6ImNrbGtuczJ1ZTAxMWEyd3FodXI4bzRjY2QifQ.BpiYbFUj6ZRv0jEx8Mu2Hw';
-        var map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v11'
-        });
-    </script>
+        <script class="self-center">
+            mapboxgl.accessToken = 'pk.eyJ1IjoicGlwb2thaWV0IiwiYSI6ImNrbXE1NmZ3NzB3b2Iyd3J2eXkxNGV3c3YifQ.Ii8gqa12oLUI88VKduxzgw';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/satellite-v9',
+                center: [-2.92344, 43.257],
+                zoom: 13
+            });
+
+            var marker1 = new mapboxgl.Marker()
+                .setLngLat([-2.906831, 43.257119])
+                .addTo(map);
+
+            var marker2 = new mapboxgl.Marker()
+                .setLngLat([-2.905257, 43.258493])
+                .addTo(map);
+
+        </script>
     </div>
     
 
