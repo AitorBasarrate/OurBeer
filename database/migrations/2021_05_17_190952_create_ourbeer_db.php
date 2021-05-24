@@ -15,6 +15,7 @@ class CreateOurbeerDb extends Migration
     {
         Schema::create('cerveza', function (Blueprint $table) {
             $table->id('idCerveza');
+            $table->string('nombre');
             $table->string('tipo');
             $table->string('descripcion');
             $table->string('pais');
