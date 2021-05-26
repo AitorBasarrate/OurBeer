@@ -59,8 +59,12 @@
                 zoom: 15
             });
 
+            var popupSorgin = new mapboxgl.Popup({ offset: 15 })
+                                        .setText('Bar Sorgin Taberna');
+
             var sorginTaberna = new mapboxgl.Marker({color: 'orange'})
                                     .setLngLat([-2.962862940229765, 43.14059000899917])
+                                    .setPopup(popupSorgin)
                                     .addTo(map);
             
             var elLio = new mapboxgl.Marker()
