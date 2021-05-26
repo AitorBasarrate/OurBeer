@@ -51,12 +51,22 @@
     <div id='map' class="ml-32 mr-32 h-96">
         <h1>MAPA</h1>
         <script  class="self-center">
-        mapboxgl.accessToken = 'pk.eyJ1IjoiYmFzYXRvcjAwIiwiYSI6ImNrbGtuczJ1ZTAxMWEyd3FodXI4bzRjY2QifQ.BpiYbFUj6ZRv0jEx8Mu2Hw';
-        var map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v11'
-        });
-    </script>
+            mapboxgl.accessToken = 'pk.eyJ1IjoiYmFzYXRvcjAwIiwiYSI6ImNrbGtuczJ1ZTAxMWEyd3FodXI4bzRjY2QifQ.BpiYbFUj6ZRv0jEx8Mu2Hw';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/streets-v11',
+                center: [-2.962387, 43.143029],
+                zoom: 15
+            });
+
+            var sorginTaberna = new mapboxgl.Marker({color: 'orange'})
+                                    .setLngLat([-2.962862940229765, 43.14059000899917])
+                                    .addTo(map);
+            
+            var elLio = new mapboxgl.Marker()
+                                    .setLngLat([-2.9627905205884364, 43.14068884494373])
+                                    .addTo(map);
+        </script>
     </div>
     
 
