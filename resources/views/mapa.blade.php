@@ -43,13 +43,51 @@
                 center: [-2.92344, 43.257],
                 zoom: 13
             });
+            
+            // Add geolocate control to the map.
+            map.addControl(
+                new mapboxgl.GeolocateControl({
+                    positionOptions: {
+                        enableHighAccuracy: true
+                    },
+                    trackUserLocation: true
+                })
+            );
 
+            /* Bar Auzoa */
+            var popup1 = new mapboxgl.Popup({ offset: 15 })
+                                        .setText('Bar Auzoa');
+                                    
             var marker1 = new mapboxgl.Marker()
                 .setLngLat([-2.906831, 43.257119])
+                .setPopup(popup1)
                 .addTo(map);
+
+            /* Cafeteria Mahi */
+            var popup2 = new mapboxgl.Popup({ offset: 15 })
+                                    .setText('Cafeteria Mahi');
 
             var marker2 = new mapboxgl.Marker()
                 .setLngLat([-2.905257, 43.258493])
+                .setPopup(popup2)
+                .addTo(map);
+
+            /* Bar El Mirador */
+            var popup3 = new mapboxgl.Popup({ offset: 15 })
+                                    .setText('Bar El Mirador');
+                                    
+            var marker1 = new mapboxgl.Marker()
+                .setLngLat([-2.90285, 43.259052])
+                .setPopup(popup3)
+                .addTo(map);
+
+            /* Bar Riamitor */
+            var popup3 = new mapboxgl.Popup({ offset: 15 })
+                                    .setText('Bar Riamitor');
+
+            var marker2 = new mapboxgl.Marker()
+                .setLngLat([-2.900959, 43.259395])
+                .setPopup(popup3)
                 .addTo(map);
 
         </script>
@@ -82,4 +120,5 @@
         </g>
     </svg>
 <div>
+    
 @endsection
